@@ -1,0 +1,33 @@
+nav{
+	justify-content: space-between;
+}
+ img{
+	display: flex;
+	position:sticky;
+	align-items: center;
+	width: 100%;
+}
+.nav-left { display: flex;
+	background-color: goldenrod;
+	word-spacing: 16px;
+    animation: forwards;
+    animation-duration: all;
+    padding: 2px;
+    
+}
+.nav-left ul li {
+	display: flex ;
+	align-items: center;
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.logo img{
+	width: 60px;
+	height: 40px;
+    display: inline-block;
+	border-style: solid ;
+    border-radius: 10%;
+    border-color: lightgoldenrodyellow;
+
+}
